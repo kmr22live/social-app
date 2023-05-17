@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: rgb(239, 242, 246);
+  font-family: "Inter", sans-serif;
+}
+/*navbar*/
+.navbar {
+  background: white;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.container {
+  max-width: 1200px;
+  font-weight: 600;
+}
+.search-text {
+  padding: 8px 16px 8px 48px;
+}
+.search-form {
+  opacity: 0.7;
+}
+.fa-magnifying-glass {
+  font-size: 18px;
+}
+.dropdown-menu {
+  min-width: 250px;
+  padding: 12px 6px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: blue;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: blue;
+  background-color: white;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: blue;
+  background-color: white;
+}
+.demo-drop:hover .demo-dropdown-show {
+  display: block;
+}
+.page-drop:hover,
+.demo-drop:hover,
+.account-drop:hover {
+  cursor: pointer;
+}
+.page-drop:hover > a,
+.demo-drop:hover > a,
+.account-drop:hover > a,
+.network-drop:hover > a {
+  color: blue;
+}
+.page-drop:hover .page-dropdown {
+  display: block;
+}
+.account-drop:hover .account-dropdown {
+  display: block;
+}
+.fa-angle-down {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.fa-cloud-arrow-down {
+  margin-right: 6px;
+}
+
+.icons-right-nav .fa-solid {
+  color: grey;
+}
+
+.icons-right-nav .famessage:hover .fa-message,
+.icons-right-nav .fabell:hover .fa-bell,
+.icons-right-nav .fagear:hover .fa-gear {
+  color: black;
+}
+.icons-right-nav a {
+  background: rgb(239, 242, 246);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin-top: 80px;
+}
+/*profile*/
+.profile-background {
+  height: 50px;
+  object-fit: cover;
+}
+
+main .container {
+  margin-top: 24px;
+}
+.profile-avatar-img {
+  width: 64px;
+  height: 64px;
+}
+
+.offcanvas-body .card .profile-avatar-img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.offcanvas-body .profile-hr {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.offcanvas-body .text-center {
+  position: relative;
+  top: -20px;
+  display: inline-block;
+}
+.offcanvas-body .text-center a {
+  color: black;
+}
+.offcanvas-body small {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.profile-name {
+  font-weight: 700;
+  font-size: 19px;
+}
+.offcanvas-body .text-center h6 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.offcanvas-body .card-body {
+  padding-bottom: 0px;
+}
+.offcanvas-body .text-center p {
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 0.7;
+}
+.profile-links a {
+  padding: 0 4px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+.profile-links a img {
+  width: 18px;
+  height: 18px;
+}
+.profile-links a:hover {
+  color: blue;
+}
+.profile-links:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.profile-links {
+  row-gap: 8px;
+}
+.offcanvas-body .card-footer {
+  top: 10px;
+  background: white;
+  padding-top: 4px;
+}
+.offcanvas-body .card-footer a {
+  text-decoration: none;
+  font-weight: 500;
+  color: blue;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.profile-last-footer a {
+  font-size: 13px;
+  padding: 4px 12px;
+}
+.footer-copywrite {
+  margin-top: 200px;
+}
+/* post */
+.post-add-card {
+  width: 140px;
+  height: 150px;
+  border: 2px dashed grey;
+}
+.stories-square {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+#stories::-webkit-scrollbar {
+  height: 8px;
+}
+
+#stories::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 50px white;
+  border-radius: 10px;
+}
+
+#stories::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.story {
+  max-width: 120px;
+  max-height: 150px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.story img {
+  display: block;
+  width: 120px;
+  height: 150px;
+  border-radius: 5px;
+  background-size: fill;
+}
+.strong {
+  position: relative;
+  overflow-y: hidden;
+}
+.story .name {
+  position: relative;
+  bottom: 28px;
+  left: 8px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.share-post-card img {
+  width: 35px;
+  height: 35px;
+}
+.share-post-card textarea {
+  border: none;
+  resize: none;
+}
+.share-post-card textarea:focus,
+.share-post-card textarea:active {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.share-post-card .fa-solid {
+  padding-right: 5px;
+}
+.share-post-card .fa-ellipsis {
+  padding-right: 0px;
+}
+.share-post-card li {
+  margin-right: 5px;
+}
+.share-post-card li a {
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: whitesmoke;
+}
+.share-post-card ul .dropdown-menu .fa-regular {
+  margin-right: 5px;
+}
+.share-post-card ul .dropdown-menu a {
+  background-color: white;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.share-post-card li a {
+  cursor: pointer;
+}
+
+.fa-image {
+  color: lightgreen;
+}
+.fa-video {
+  color: blue;
+}
+.fa-folder-closed {
+  color: red;
+}
+.fa-face-smile {
+  color: orange;
+}
+
+.post-card-body img {
+  width: 40px;
+}
+
+/*modal*/
+.modal-body .avatar-img {
+  width: 40px;
+}
+.dropzone-place {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dz-message {
+  text-align: center;
+}
+.preview-img img {
+  max-width: 100%;
+  width: 100px;
+}
+.preview-img li {
+  list-style: none;
+}
+.preview-img {
+  position: relative;
+}
+.remove-btn {
+  border-radius: 50%;
+  position: absolute;
+}
+/*Allpost*/
+.post-card-body {
+  padding: 10px;
+}
+.post-card-body .card-header {
+  background-color: white;
+}
+.post-card-body .name {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+.post-card-body .small {
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.8;
+}
+.nav.nav-divider .time-post:before {
+  content: "•";
+  color: inherit;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  opacity: 0.8;
+}
+.post-card-body .thoughts {
+  font-size: 15px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+.post-card-body .liked-post {
+  font-size: 13px;
+  opacity: 0.8;
+  font-weight: 400;
+  color: blue;
+}
+.post-card-body .comments-post,
+.post-card-body .share-post {
+  font-size: 13px;
+  opacity: 0.8;
+  font-weight: 400;
+  color: black;
+}
+.post-card-body .comments-post:hover,
+.post-card-body .share-post:hover {
+  color: blue;
+}
+.post-card-body .card-img {
+  width: 100%;
+}
+.post-card-body .share-z-index {
+  cursor: pointer;
+}
+.comment-wrap-comments a {
+  color: black;
+}
+.comment-wrap-comments .nav-link {
+  padding: 0;
+}
+
+.point-divider {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.comment-item-nested {
+  padding-left: 45px;
+}
+.dropzone-default {
+  border: 2px dashed grey;
+  border-radius: 5px;
+}
+.handle-hide-post {
+  cursor: pointer;
+}
+.navbar-toggler-animation {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  background: rgb(239, 242, 246);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*create post*/
+.create-post-text-only i {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .share-thoughts {
+  border: none;
+  resize: none;
+}
+.modal .share-thoughts:focus,
+.modal .share-thoughts:active {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.create-post-last-btn {
+  background-color: rgb(216, 246, 216);
+  color: green;
+  font-size: 15px;
+  font-weight: 500;
+}
+.create-post-last-btn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: green;
+  color: white;
+}
+
+.create-live-last-btn {
+  background-color: rgb(243, 210, 210);
+  font-size: 15px;
+  font-weight: 500;
+}
+.create-live-last-btn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: red;
+}
+.create-live-last-btn i,
+.create-live-last-btn {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: red;
+}
+.create-live-last-btn:hover i,
+.create-live-last-btn:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+#modalLabelCreateFeed,
+#feedActionPhotoLabel {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.comments-send-btn {
+  position: absolute;
+  right: 0;
+  border: 0px;
+  background-color: transparent;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+.fa-paper-plane {
+  color: grey;
+}
+
+.post-card-body .comments-typing .share-thoughts:active,
+.post-card-body .comments-typing .share-thoughts:focus {
+  border: 1px solid blue;
+  box-shadow: none;
+}
+.who-to-follow img {
+  width: 40px;
+}
+.who-to-follow .card-header {
+  background-color: none;
+  background: none;
+  padding-top: 20px;
+}
+.who-to-follow .card-header h5 {
+  font-weight: 700;
+}
+.today-news a {
+  color: black;
+}
+.viewmore-btn {
+  background-color: rgb(213, 231, 237);
+}
+.viewmore-btn {
+  color: blue;
+}
+.profile-img-header {
+  width: 40px;
+}
