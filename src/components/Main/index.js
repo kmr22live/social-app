@@ -77,7 +77,7 @@ export default function Main() {
                         <p className="mb-0 small text-truncate">News anchor</p>
                       </div>
                       <a
-                        className="btn btn-primary rounded-circle icon-md ms-auto"
+                        className="btn rounded-circle icon-md ms-auto"
                         href="#"
                       >
                         <i className="fa-solid fa-circle-plus"></i>
@@ -102,7 +102,7 @@ export default function Main() {
                         </p>
                       </div>
                       <a
-                        className="btn btn-primary rounded-circle icon-md ms-auto"
+                        className="btn rounded-circle icon-md ms-auto"
                         href="#"
                       >
                         <i className="fa-solid fa-circle-plus"></i>
@@ -126,7 +126,7 @@ export default function Main() {
                         <p className="mb-0 small text-truncate">News anchor</p>
                       </div>
                       <a
-                        className="btn btn-primary rounded-circle icon-md ms-auto"
+                        className="btn rounded-circle icon-md ms-auto"
                         href="#"
                       >
                         <i className="fa-solid fa-circle-plus"></i>
@@ -152,7 +152,7 @@ export default function Main() {
                         </p>
                       </div>
                       <a
-                        className="btn btn-primary rounded-circle icon-md ms-auto"
+                        className="btn rounded-circle icon-md ms-auto"
                         href="#"
                       >
                         <i className="fa-solid fa-circle-plus"></i>
@@ -176,7 +176,7 @@ export default function Main() {
                         <p className="mb-0 small text-truncate">News anchor</p>
                       </div>
                       <a
-                        className="btn btn-primary rounded-circle icon-md ms-auto"
+                        className="btn  rounded-circle icon-md ms-auto"
                         href="#"
                       >
                         <i className="fa-solid fa-circle-plus"></i>
@@ -185,7 +185,7 @@ export default function Main() {
 
                     <div className="d-grid mt-3">
                       <a
-                        className="btn btn-sm btn-primary viewmore-btn"
+                        className="btn btn-sm  viewmore-btn"
                         href="#!"
                       >
                         View more
