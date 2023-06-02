@@ -185,7 +185,7 @@ export default function Main() {
 
                     <div className="d-grid mt-3">
                       <a
-                        className="btn btn-sm  viewmore-btn"
+                        className="btn btn-primary btn-sm  viewmore-btn"
                         href="#!"
                       >
                         View more
